@@ -2,10 +2,12 @@
 
  Small lib to grabs some info from steam store web page
 
- ## Features
+## Features
+
  * AppID form game/app name
 
- ## Get Steam App ID by name
+
+## Get Steam App ID by name
 
  ```javascript
 const SteamAppInfo = require('steam-app-info');
