@@ -1,0 +1,33 @@
+{
+  "name": "steam-app-info",
+  "version": "0.0.1",
+  "description": "Small lib to grabs some info from steam store web page",
+  "main": "index.js",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=4.4.5"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Driblinho/steam-app-info.git"
+  },
+  "keywords": [
+    "steam"
+  ],
+  "author": "Ireneusz Kuliga <irekkuliga@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Driblinho/steam-app-info/issues"
+  },
+  "homepage": "https://github.com/Driblinho/steam-app-info#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "htmlparser2": "^3.9.1"
+  }
+}
