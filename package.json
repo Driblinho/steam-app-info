@@ -28,6 +28,7 @@
     "mocha": "^2.5.3"
   },
   "dependencies": {
-    "htmlparser2": "^3.9.1"
+    "htmlparser2": "^3.9.1",
+    "request": "^2.73.0"
   }
 }
