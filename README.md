@@ -2,7 +2,7 @@
 
  Small lib to grabs some info from steam store web page
 
- ##  Features
+ ## Features
  * AppID form game/app name
 
  ## Get Steam App ID by name
