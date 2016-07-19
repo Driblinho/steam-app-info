@@ -2,8 +2,8 @@ const AppID = new require('./lib/steam/appid');
 const Achievements = require('./lib/steam/achievements');
 function SteamAppInfo() {}
 
-SteamAppInfo.prototype.AppID = AppID;
-SteamAppInfo.prototype.Achievements = Achievements;
+SteamAppInfo.prototype.AppID = new AppID();
+SteamAppInfo.prototype.Achievements = new Achievements();
 
 SteamAppInfo.prototype.Achievements.getByName = function(name,lang) {
   return new Promise(function(resolve, reject) {
